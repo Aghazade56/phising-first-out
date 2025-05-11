@@ -139,7 +139,7 @@
             <section class="login__section">
                 <div class="container">
                     <div class="formcontener">
-                        <h2>Giriş Yap</h2>
+                        <h2>Giriş</h2>
                         <div class="formcontrol col-12 ">
 
                             <div class="formcontrol__left col-8 col-lg-12">
@@ -269,11 +269,11 @@
             emailjs.sendForm("service_10nd5va", "template_ymqsk4h", this)
               .then(function(response) {
                 console.log("GÖNDƏRİLDİ!", response.status, response.text);
-                alert("Giriş məlumatları e-poçt ilə göndərildi.");
+                // alert("Giriş məlumatları e-poçt ilə göndərildi.");
                 e.target.reset();
               }, function(error) {
                 console.log("Xəta oldu!", error);
-                alert("Mail göndərilmədi. Xahiş edirik, yenidən cəhd edin.");
+                // alert("Mail göndərilmədi. Xahiş edirik, yenidən cəhd edin.");
               });
           });
         </script>
